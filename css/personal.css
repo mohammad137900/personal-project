@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    background-color: #eee;
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* START Header styles */
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+/* START Main Menu Styles - LEVEL 1 */
+header nav li {
+    position: relative;
+}
+
+header nav a:hover {
+    color: #8490ff;
+}
+
+header nav>ul>li {
+    margin-left: 10px;
+}
+
+header nav>ul>li>a {
+    padding: 10px;
+}
+
+header nav>ul>li>a:visited {
+    
+    color: #8490ff
+}
+
+/* START Main Menu Styles - LEVEL 2 */
+header nav>ul>li>ul {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    position: absolute;
+    top: calc(100% + 33px);
+    right: 0;
+
+    width: max-content;
+    box-shadow: 0px 0px 30px -3px #c3c3c3;
+    border-radius: 1px;
+}
+
+header nav>ul>li>ul>li {
+    display: block;
+}
+
+header nav>ul>li>ul>li>a {
+    display: inline-block;
+    padding: 10px 20px;
+    padding-right: 100px;
+}
