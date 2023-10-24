@@ -85,3 +85,50 @@ header nav>ul>li>ul>li>a {
     padding: 10px 20px;
     padding-right: 100px;
 }
+/*************** section-1 **** This is me *********************/
+.This-is-me-fa {
+    width: 100%;
+    background-color: #f3f6fd;
+    padding-top: 70px;
+}
+
+.This-is-me {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.this-is-left {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    padding-right: 25px;
+    padding-top: 80px;
+}
+
+.this-is-right {
+    padding-left: 35px;
+}
+
+.This-is-me div>h6 {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.This-is-me div>h1 {
+    font-size: 58px;
+    margin: 0;
+}
+
+.This-is-me div>p {
+    color: #8e8e8e;
+    font-weight: lighter;
+   
+}
+
+.This-is-me div>a {
+    color: #ffffff;
+    font-weight: 800px;
+   text-decoration: none;
+   font-size: 13px;
+ }
