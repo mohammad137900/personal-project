@@ -135,6 +135,10 @@ header nav>ul>li>ul>li>ul>li>a{
 #text h1,p{
     color: rgb(55, 55, 55);
 }
+#text p{
+    font-size: 14px;
+    line-height: 26px;
+}
 #text h6{
     font-size: 14px;
     color: #3f3e3e;
