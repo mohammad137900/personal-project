@@ -224,39 +224,115 @@ header nav>ul>li>ul>li>ul>li>a{
 
 }
 /* finish ABOUT-ME section and start MY-SERVISES section */
-.servises{
-    padding-top:5%;
+.service{
+    margin: 0 auto;
 }
-.servises #title{
-  text-align: center;
-}
-.servises #title h1{
-    margin-bottom: 10px;
-    font-size: 36px;
-    font-family: "Poppins", sans-serif;
-    color: #222222;
-    font-weight: 600;
-    line-height: 1.5em;
-}
-.servises #title p{
-  width: 40%;
-  margin-left: 30%;
-  line-height: 1.5em;
-}
-.cards{
+#serv-title{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+   
+}
+#serv-title h1{
+    font-size: 36px;
+}
+#serv-title p{
+    font-size:16px;
+    width:38%;
+    color: #222222;
+}
+
+.service>.serv-container{
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left:50px;
+        padding-right:50px;
+        gap: 20px;
+}
+.service>.serv-container>.services{
+    width:300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 70px;
+   
+}
+.service>.serv-container>.services p{
+    font-size:17px;
+}
+.service>.serv-container>.services h4{
+    font-size: 18px;
+    font-weight:700;
+}
+.service>.serv-container>.services h4,img{
+    transition: all 0.2s  ease-in 0s ;
+    transition-delay: 0.06s;
+}
+
+.service>.serv-container>.services:hover h4{
+    color: #3eafff;
+    
+}
+.service>.serv-container>.services:hover img{
+    filter: invert(49%) sepia(91%) saturate(431%) hue-rotate(198deg) brightness(102%) contrast(101%);
+    
+}
+.service>.serv-container>.services img{
+    width: 50px;
+    height: 50px;
+}
+/* finish develope on service section 
+i will come back */
+/* counter section */
+.count-number{
+    padding-top:80px;
+}
+.count {
+    width:100%;
+    height:200px;
+    /* margin: 0 auto; */
+    background-color: rgb(0, 251, 255);
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+
+
 }
-.cards div{
-    width: 400px;
-    height: 400px;
-    /* padding-top: 60px; */
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
-    height: auto;
-    /* gap: 30px; */
+
+
+.count>div {
+    width: 200px;
+    padding: 0 12px 0;
+
+
 }
+
+.count div>h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.count div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0;
+}
+/* ------------------------------------------------------------ */
+
+
 
