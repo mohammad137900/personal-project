@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background-color: #f1f1f1;
+    background-color: #fff;
     
 }
 
@@ -119,17 +119,21 @@ header nav>ul>li>ul>li>ul>li>a{
 }
 /* start this me section */
 .This-Me{
+    background-color: rgb(242, 237, 237);
+}
+.This-Me .container{
+    width: 1000px;
+    height:inherit;
     display:flex; 
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding-right:20%;
+    /* padding-right:20%; */
 }
 .my-photo{
-    padding-left: 20px;
+    margin-left: 20px;
 }
 #text{
-    padding-left:18%;
     padding-right: 10px;
     width: 50%;
 }
@@ -139,7 +143,7 @@ header nav>ul>li>ul>li>ul>li>a{
 #text p{
     font-size: 14px;
     line-height: 26px;
-    /* padding-left: 10%; */
+    
 }
 #text h6{
     font-size: 14px;
@@ -167,33 +171,32 @@ header nav>ul>li>ul>li>ul>li>a{
     box-shadow: 2px 8px 4px 1px  #b6bae0;
 }
       /* <!-- finish this me section and start about me section --> */
-.about-me{
+.about-me .photo{
+    
+   
+}
+.about-me .container{
+    width: 1000px;
+    height: inherit;
     display:flex; 
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding-left: 8%;
-    padding-top: 8%;
+    padding-top: 5%;
+    padding-right: 70px;
 }
 #text-about{
-    width: 50%;
-    padding-left: 50px;
-   
+    margin-bottom: 10px;
 }
 
 #text-about p{
-    padding-right:20%;
     line-height: 25px;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#text-about h6{
-    
+#text-about h6{  
     font-family: "Poppins", sans-serif;
     color: #222222;
-    line-height: 1.2em !important;
-    margin-bottom: 0;
-    margin-top: 0;
     font-weight: 600;
 }
 #text-about h1{
@@ -210,7 +213,7 @@ header nav>ul>li>ul>li>ul>li>a{
     line-height: 42px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
     border: none;
     color: #fff;
     display: inline-block;
@@ -299,7 +302,7 @@ i will come back */
     height:200px;
     background:linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     margin-top: 80px;
-    padding:60px;
+    /* padding:60px; */
 }
 .counter {
     display: flex;
